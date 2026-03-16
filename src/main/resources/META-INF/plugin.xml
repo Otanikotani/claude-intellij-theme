@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.github.ota.claudetheme</id>
+  <name>Claude Theme</name>
+  <vendor>ota</vendor>
+  <depends>com.intellij.modules.platform</depends>
+
+  <description><![CDATA[
+    A warm, refined color theme for IntelliJ IDEA inspired by Claude.
+    Includes both dark and light variants with carefully chosen colors
+    for comfortable, extended coding sessions.
+  ]]></description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="claude-dark-theme" path="/themes/claude_dark.theme.json"/>
+    <themeProvider id="claude-light-theme" path="/themes/claude_light.theme.json"/>
+    <bundledColorScheme path="/themes/claude-dark-intellij"/>
+    <bundledColorScheme path="/themes/claude-light-intellij"/>
+  </extensions>
+</idea-plugin>
