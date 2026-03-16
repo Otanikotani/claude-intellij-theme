@@ -12,6 +12,12 @@ A warm, refined color theme inspired by Claude. Dark and light variants.
 
 ![Claude Light Theme](screenshots/claude-light-example.png)
 
+## Structure
+
+The `.icls` files in the repo root (`claude-dark-intellij.icls`, `claude-light-intellij.icls`) are standalone editor color schemes (syntax highlighting, editor colors, console colors). They can be imported directly via Settings → Editor → Color Scheme → gear icon → Import Scheme.
+
+The plugin builds on top of these by adding a full UI theme (`.theme.json`) that styles the rest of the IDE — toolbars, tabs, panels, trees, popups, buttons, status bar, icons, etc.
+
 ## Installation
 
 ### From Disk
