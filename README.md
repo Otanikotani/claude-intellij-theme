@@ -4,6 +4,10 @@ A warm, refined color theme inspired by Claude. Dark and light variants.
 
 ## Screenshots
 
+### Dark
+
+![Claude Dark Theme](screenshots/claude-dark-example.png)
+
 ### Light
 
 ![Claude Light Theme](screenshots/claude-light-example.png)
